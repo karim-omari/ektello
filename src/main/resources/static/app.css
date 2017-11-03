@@ -1,0 +1,112 @@
+.login-register {
+    background: url(assets/images/login.jpg) center center/cover no-repeat!important;
+    height: 100%;
+    position: fixed
+}
+
+
+
+.panel-pink {
+    border-color: #FF93AC
+}
+
+
+.panel-pink .panel-heading {
+    border-color: #FF93AC;
+    color: #fff;
+    background-color: #FF93AC
+}
+
+.color-table.purple-table thead th {
+    background-color: #AA83CB;
+    color: #fff
+}
+
+.program-box{
+	margin-right: 10PX;
+    margin-bottom: 20px;
+    margin-top: 20px;
+	background-color: #1C3862;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+    
+}
+
+.enrolled-div{
+    padding: 10PX;
+    background-color: #999999;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.attended-div{
+    padding: 10PX;
+    background-color: #217C7E;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.left-div{
+    padding: 10PX;
+    background-color: #9A3334;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.remaining-div{
+    padding: 10PX;
+    background-color: #6497BF;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.navbar-header {
+    width: 100%;
+    background: #00BEFE;
+    border: 0
+}
+
+.circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: white;
+    color: orange;
+    text-align: center;
+    display: table-cell;
+    overflow: hidden;
+    vertical-align:middle;
+}
+
+.btn-karim {
+    background: #999999;
+    border: 2px solid #999999;
+}
+
+.btn-karim2 {
+    background: #217C7E;
+    border: 2px solid #e5ebec;
+    color:white;
+}
+
+.btn-danger-custom {
+    background: #9A3334;
+    border: 2px solid #9A3334;
+    color:white;
+}
+
+

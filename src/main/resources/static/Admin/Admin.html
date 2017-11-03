@@ -1,0 +1,52 @@
+<div class="col-md-12">
+  <!-- Widget: user widget style 1 -->
+  <div class="box box-widget widget-user-2">
+    
+    
+    
+    <!-- Add the bg color to the header using any of the bg-* classes -->
+    <div class="widget-user-header bg-navy" style="text-align: center;">
+      
+      <h2>REGISTERED USERS</h2>
+
+    </div>
+    <div class="box-footer no-padding">
+
+     <table class="table table-bordered">
+      <tbody >
+        <tr >
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Address 1</th>
+          <th>Address 2</th>
+          <th>City</th>
+          <th>State</th>
+          <th>Zip</th>
+          <th>Country</th>
+          <th>Date</th>
+        </tr>
+        
+        
+        
+        
+        <tr   ng-repeat="u in users">
+          <td>{{u.firstName}}</td>
+          <td>{{u.lastName}}</td>
+          <td>{{u.address1}}</td>
+          <td>{{u.address2}}</td>
+          <td>{{u.city}}</td>
+          <td>{{u.state}}</td>
+          <td>{{u.zip}}</td>
+          <td>{{u.country}}</td>
+          <td>{{u.date}}</td>
+       </tr>
+
+     </tbody>
+
+
+    
+
+    </div>
+</div>
+<!-- /.widget-user -->
+</div>
